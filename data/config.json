@@ -1,0 +1,9 @@
+{
+	"test":{
+			"appUrl": "https://wego.here.com"
+		},
+		
+	"dev":{
+			"appUrl": "https://wego.here.com"
+		}
+}
