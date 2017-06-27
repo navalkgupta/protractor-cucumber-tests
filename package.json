@@ -1,5 +1,5 @@
 {
-  "name": "protractor-cucumber",
+  "name": "protractor-cucumber-tests",
   "version": "1.0.0",
   "description": "e2e BDD tests",
   "main": "index.js",

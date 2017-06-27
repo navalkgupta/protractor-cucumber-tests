@@ -8,7 +8,7 @@ Feature: Search on Here We Go
         Given I search for location "navi"
         When I select first result "Navi Mumbai" from suggestions
         And I navigate to nearby "Parking" places
-        Then I should see 51 place marker on map
+        Then I should see many place markers on map
         When I navigate to get Directions
         Then I should see 1 location marker on map
         When I enter from location "goregaon"

@@ -2,9 +2,6 @@
 
 var SearchPage = function() {
 
-	this.branding = element(by.css('div.contextual_text>h2'));
-	this.closeBranding = element(by.css('div.content>button.close'));
-	
 	this.searchBox = element(by.css('.input_search'));
 	this.suggestions = element.all(by.css('.dropdown_list_item.suggestion'));
 	this.itemTitle = by.css('.dropdown_list_item_title');
